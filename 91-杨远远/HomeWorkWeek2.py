@@ -55,7 +55,7 @@ class TorchModel(nn.Module):
 def main():
     # 配置参数
     epoch_num = 200  # 训练轮数
-    batch_size = 20  # 每次训练样本个数
+    batch_size = 10  # 每次训练样本个数
     train_sample = 5000  # 每轮训练总共训练的样本总数
     input_size = 5  # 输入向量维度
     learning_rate = 0.0001  # 学习率
